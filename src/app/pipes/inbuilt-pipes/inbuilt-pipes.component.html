@@ -1,0 +1,21 @@
+<div class="container-fluid">
+    <div class="row">
+        <div class="col-sm-1"></div>
+        <div class="col-sm-10">
+            <h2>inbuilt-pipes:</h2>
+            <h4>there are several inbuilt pipes that you can use to transform data before displaying it in the template. </h4>
+            <h1>
+                <ul>
+                    <li>{{title | uppercase}}</li>
+                    <li>{{title | lowercase}}</li>
+                    <li>{{ currency | currency:'INR' }}</li>
+                    <li>{{percent | percent}}</li>
+                    <li>{{ TodayDate | date : 'dd-MM-YYYY'}}</li> 
+                    <li>{{ pipes_of_object | json}}</li>
+                    
+                  </ul>
+            
+            </h1>
+        
+    </div>
+ </div>
